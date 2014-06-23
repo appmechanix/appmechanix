@@ -7,5 +7,8 @@ AppMechanix
 4. npm install
 5. node app
 6. http://localhost:3000
-7. 
 
+Deploy
+======
+
+Need to find a host first
