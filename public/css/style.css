@@ -540,8 +540,9 @@ body.quizblaster {
 body.quizblaster .slice {
     background: white;
     padding: 40px 0;
+    margin: 40px 0;
 }
 
-.paddtop {
-    padding: 40px 0;
+body.quizblaster h3.title {
+    color:white;
 }
