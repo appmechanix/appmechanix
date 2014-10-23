@@ -537,7 +537,7 @@ body.quizblaster {
     background: #00b3fe;
 }
 
-body.quizblaster .slice {
+body .slice {
     background-color: white;
     padding: 40px 0;
     margin: 40px 0;
@@ -648,5 +648,13 @@ section {
     img#hero-lumia.done {
         width: 30%;
     }
+}
 
+.shnappy-macbook {
+    background: url(/img/shnappy-macbook.jpg) no-repeat right;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    right: -25px;
 }
