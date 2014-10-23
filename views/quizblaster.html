@@ -2,21 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img class="img-responsive offset offset-left"
-                     id="hero-w8"
-                     src="/img/surface-w8.jpg"
-                     srcset="/img/surface-w8.2x.jpg 2x"
-                     alt="">
-
-                <img class="img-responsive offset offset-right"
-                     id="hero-iphone"
-                     src="/img/hero-iphone6.png"
-                     alt="">
-
-                <img class="img-responsive offset"
-                     id="hero-lumia"
-                     src="/img/hero-lumia.png"
-                     alt="">
+                <img
+                        src="/img/quizblaster-hero.jpg"
+                        srcset="/img/quizblaster-hero.2x.jpg 2x"
+                        class="img-responsive" style="margin:0 auto;">
 
                 <h2 class="uppercase">Quizblaster</h2>
 
@@ -175,10 +164,6 @@
 <script>
     $(function () {
         var controller = new ScrollMagic();
-
-        $('#hero-w8').addClass('done');
-        $('#hero-iphone').addClass('done');
-        $('#hero-lumia').addClass('done');
 
         // Lumias image
         new ScrollScene({duration: 300, offset: -300, reverse: false})
