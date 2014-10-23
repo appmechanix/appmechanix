@@ -538,11 +538,15 @@ body.quizblaster {
 }
 
 body.quizblaster .slice {
-    background: white;
+    background-color: white;
     padding: 40px 0;
     margin: 40px 0;
 }
 
+body.quizblaster .slice.nopadding {
+    padding: 0;
+}
+
 body.quizblaster h3.title {
-    color:white;
+    color: white;
 }

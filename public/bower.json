@@ -1,0 +1,19 @@
+{
+  "name": "AppMechanix",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dwnz/AppMechanix",
+  "authors": [
+    "Daniel Wylie <daniel@danielwylie.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ScrollMagic": "~1.2.2"
+  }
+}
