@@ -559,3 +559,94 @@ body.quizblaster h3.title {
 .fadeinbody.show {
     opacity: 1;
 }
+
+.offset {
+    transition: all 0.5s;
+}
+
+.offset-left {
+    margin-left: -80%;
+}
+
+.offset-right {
+    margin-right: 80%;
+}
+
+.offset.done {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img#hero-w8 {
+    margin-top: -20px;
+}
+
+img#hero-iphone {
+    position: absolute;
+    left: 110%;
+    top: 33px;
+    width: 260px;
+    transition-delay: 0.1s;
+    z-index: 3;
+}
+
+img#hero-iphone.done {
+    left: 63%;
+}
+
+img#hero-lumia {
+    position: absolute;
+    right: -100%;
+    top: 50px;
+    width: 260px;
+    transition-delay: 0.2s;
+    z-index: 2;
+}
+
+img#hero-lumia.done {
+    right: 0;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+@media (max-width: 990px) {
+    img#hero-w8.done {
+        margin-left: -20%;
+    }
+
+    img#hero-iphone {
+        top: 0;
+    }
+
+    img#hero-lumia.done {
+        top: 30px;
+        left: 80%;
+        right: 0%;
+    }
+}
+
+@media (max-width: 800px) {
+    img#hero-iphone {
+        width: 30%;
+        top: 60px
+    }
+
+    img#hero-lumia.done {
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    img#hero-iphone {
+        width: 30%;
+        top: 40px
+    }
+
+    img#hero-lumia.done {
+        width: 30%;
+    }
+
+}
