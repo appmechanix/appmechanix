@@ -1,5 +1,5 @@
 exports.CONFIG = {
-	Port: getValue(3000, 3010)
+	Port: getValue(3000, process.env.PORT)
 };
 
 
