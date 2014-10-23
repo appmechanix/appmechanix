@@ -550,3 +550,12 @@ body.quizblaster .slice.nopadding {
 body.quizblaster h3.title {
     color: white;
 }
+
+.fadeinbody {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.fadeinbody.show {
+    opacity: 1;
+}
