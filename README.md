@@ -15,4 +15,6 @@ AppMechanix
 Deploy
 ======
 
-Need to find a host first
+Auto deploys to Azure!
+
+appmechanix.azurewebsites.net
