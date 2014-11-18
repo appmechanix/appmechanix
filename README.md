@@ -17,4 +17,4 @@ Deploy
 
 Auto deploys to Azure!
 
-appmechanix.azurewebsites.net
+http://appmechanix.azurewebsites.net
